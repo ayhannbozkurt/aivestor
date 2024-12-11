@@ -18,6 +18,7 @@
 		FE50B8E32D08CF9E0048BE67 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FE50B8E22D08CF9E0048BE67 /* FirebaseAuth */; };
 		FE50B8E52D08CF9E0048BE67 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = FE50B8E42D08CF9E0048BE67 /* FirebaseCore */; };
 		FE50B8E72D08CFC90048BE67 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE50B8E62D08CFC90048BE67 /* GoogleService-Info.plist */; };
+		FEC5971B2D09CFE80049D02D /* ChatbotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC5971A2D09CFE80049D02D /* ChatbotView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		FE50B8DD2D08CED90048BE67 /* ValidationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationUtils.swift; sourceTree = "<group>"; };
 		FE50B8DF2D08CEF10048BE67 /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
 		FE50B8E62D08CFC90048BE67 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FEC5971A2D09CFE80049D02D /* ChatbotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatbotView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -100,6 +102,7 @@
 		FE50B88B2D08CD8C0048BE67 = {
 			isa = PBXGroup;
 			children = (
+				FEC5971A2D09CFE80049D02D /* ChatbotView.swift */,
 				FE50B8DF2D08CEF10048BE67 /* AuthError.swift */,
 				FE50B8DD2D08CED90048BE67 /* ValidationUtils.swift */,
 				FE50B8DB2D08CEC40048BE67 /* CustomButton.swift */,
@@ -286,6 +289,7 @@
 			files = (
 				FE50B8DA2D08CEAC0048BE67 /* AuthManager.swift in Sources */,
 				FE50B8D22D08CE300048BE67 /* SignInEmailView.swift in Sources */,
+				FEC5971B2D09CFE80049D02D /* ChatbotView.swift in Sources */,
 				FE50B8D42D08CE4D0048BE67 /* SignInView.swift in Sources */,
 				FE50B8E02D08CEF10048BE67 /* AuthError.swift in Sources */,
 				FE50B8DC2D08CEC40048BE67 /* CustomButton.swift in Sources */,

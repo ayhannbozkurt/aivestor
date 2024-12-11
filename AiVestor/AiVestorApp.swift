@@ -11,6 +11,7 @@ import Firebase
 
 @main
 struct VakifBankApp: App {
+    @State private var showChatbot = true
 //    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
     init() {
@@ -19,11 +20,12 @@ struct VakifBankApp: App {
 
     var body: some Scene {
         WindowGroup {
-            SignInEmailView(
-                         viewModel: SignInEmailViewModel(),
-                         signInVM: SignInViewModel(),
-                         isUserLoggedIn: .constant(false)
-                     )
+//            SignInEmailView(
+//                         viewModel: SignInEmailViewModel(),
+//                         signInVM: SignInViewModel(),
+//                         isUserLoggedIn: .constant(false)
+//                     )
+            ChatbotView()
                    }
                }
         }
