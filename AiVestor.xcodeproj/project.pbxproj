@@ -7,18 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE2947632D0AF66500CD266F /* StockMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2947622D0AF66500CD266F /* StockMockData.swift */; };
+		FE2947672D0B297D00CD266F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE2947662D0B297D00CD266F /* GoogleService-Info.plist */; };
 		FE50B8D22D08CE300048BE67 /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50B8D12D08CE300048BE67 /* SignInEmailView.swift */; };
 		FE50B8D42D08CE4D0048BE67 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50B8D32D08CE4D0048BE67 /* SignInView.swift */; };
-		FE50B8D62D08CE6A0048BE67 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50B8D52D08CE6A0048BE67 /* SignInViewModel.swift */; };
-		FE50B8D82D08CE850048BE67 /* SignInEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50B8D72D08CE850048BE67 /* SignInEmailViewModel.swift */; };
 		FE50B8DA2D08CEAC0048BE67 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50B8D92D08CEAC0048BE67 /* AuthManager.swift */; };
 		FE50B8DC2D08CEC40048BE67 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50B8DB2D08CEC40048BE67 /* CustomButton.swift */; };
 		FE50B8DE2D08CED90048BE67 /* ValidationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50B8DD2D08CED90048BE67 /* ValidationUtils.swift */; };
 		FE50B8E02D08CEF10048BE67 /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50B8DF2D08CEF10048BE67 /* AuthError.swift */; };
 		FE50B8E32D08CF9E0048BE67 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FE50B8E22D08CF9E0048BE67 /* FirebaseAuth */; };
 		FE50B8E52D08CF9E0048BE67 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = FE50B8E42D08CF9E0048BE67 /* FirebaseCore */; };
-		FE50B8E72D08CFC90048BE67 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE50B8E62D08CFC90048BE67 /* GoogleService-Info.plist */; };
-		FEC5971B2D09CFE80049D02D /* ChatbotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC5971A2D09CFE80049D02D /* ChatbotView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +37,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE2947622D0AF66500CD266F /* StockMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockMockData.swift; sourceTree = "<group>"; };
+		FE2947662D0B297D00CD266F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FE50B8942D08CD8C0048BE67 /* AiVestor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiVestor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE50B8A42D08CD8D0048BE67 /* AiVestorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AiVestorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE50B8AE2D08CD8D0048BE67 /* AiVestorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AiVestorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE50B8D12D08CE300048BE67 /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
 		FE50B8D32D08CE4D0048BE67 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
-		FE50B8D52D08CE6A0048BE67 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
-		FE50B8D72D08CE850048BE67 /* SignInEmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailViewModel.swift; sourceTree = "<group>"; };
 		FE50B8D92D08CEAC0048BE67 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		FE50B8DB2D08CEC40048BE67 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		FE50B8DD2D08CED90048BE67 /* ValidationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationUtils.swift; sourceTree = "<group>"; };
 		FE50B8DF2D08CEF10048BE67 /* AuthError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthError.swift; sourceTree = "<group>"; };
-		FE50B8E62D08CFC90048BE67 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		FEC5971A2D09CFE80049D02D /* ChatbotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatbotView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		FE29473A2D0AF01000CD266F /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE2947552D0AF4A400CD266F /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FE29475A2D0AF50600CD266F /* Requests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		FE29475D2D0AF5C500CD266F /* Helpers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		FE50B8962D08CD8C0048BE67 /* AiVestor */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = AiVestor;
@@ -102,7 +118,11 @@
 		FE50B88B2D08CD8C0048BE67 = {
 			isa = PBXGroup;
 			children = (
-				FEC5971A2D09CFE80049D02D /* ChatbotView.swift */,
+				FE2947622D0AF66500CD266F /* StockMockData.swift */,
+				FE29475D2D0AF5C500CD266F /* Helpers */,
+				FE29475A2D0AF50600CD266F /* Requests */,
+				FE2947552D0AF4A400CD266F /* ViewModels */,
+				FE29473A2D0AF01000CD266F /* Views */,
 				FE50B8DF2D08CEF10048BE67 /* AuthError.swift */,
 				FE50B8DD2D08CED90048BE67 /* ValidationUtils.swift */,
 				FE50B8DB2D08CEC40048BE67 /* CustomButton.swift */,
@@ -112,7 +132,7 @@
 				FE50B8A72D08CD8D0048BE67 /* AiVestorTests */,
 				FE50B8B12D08CD8D0048BE67 /* AiVestorUITests */,
 				FE50B8952D08CD8C0048BE67 /* Products */,
-				FE50B8E62D08CFC90048BE67 /* GoogleService-Info.plist */,
+				FE2947662D0B297D00CD266F /* GoogleService-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,8 +151,6 @@
 			children = (
 				FE50B8D12D08CE300048BE67 /* SignInEmailView.swift */,
 				FE50B8D32D08CE4D0048BE67 /* SignInView.swift */,
-				FE50B8D52D08CE6A0048BE67 /* SignInViewModel.swift */,
-				FE50B8D72D08CE850048BE67 /* SignInEmailViewModel.swift */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -153,6 +171,10 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				FE29473A2D0AF01000CD266F /* Views */,
+				FE2947552D0AF4A400CD266F /* ViewModels */,
+				FE29475A2D0AF50600CD266F /* Requests */,
+				FE29475D2D0AF5C500CD266F /* Helpers */,
 				FE50B8962D08CD8C0048BE67 /* AiVestor */,
 			);
 			name = AiVestor;
@@ -262,7 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE50B8E72D08CFC90048BE67 /* GoogleService-Info.plist in Resources */,
+				FE2947672D0B297D00CD266F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,15 +309,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE2947632D0AF66500CD266F /* StockMockData.swift in Sources */,
 				FE50B8DA2D08CEAC0048BE67 /* AuthManager.swift in Sources */,
 				FE50B8D22D08CE300048BE67 /* SignInEmailView.swift in Sources */,
-				FEC5971B2D09CFE80049D02D /* ChatbotView.swift in Sources */,
 				FE50B8D42D08CE4D0048BE67 /* SignInView.swift in Sources */,
 				FE50B8E02D08CEF10048BE67 /* AuthError.swift in Sources */,
 				FE50B8DC2D08CEC40048BE67 /* CustomButton.swift in Sources */,
-				FE50B8D62D08CE6A0048BE67 /* SignInViewModel.swift in Sources */,
 				FE50B8DE2D08CED90048BE67 /* ValidationUtils.swift in Sources */,
-				FE50B8D82D08CE850048BE67 /* SignInEmailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

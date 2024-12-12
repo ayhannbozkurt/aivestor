@@ -24,7 +24,6 @@ struct SignInEmailView: View {
         NavigationStack {
             GeometryReader { geometry in
                 VStack(spacing: 20) {
-                    // Başlık
                     Text("Sign In")
                         .font(.largeTitle)
                         .bold()
@@ -32,7 +31,6 @@ struct SignInEmailView: View {
                     
                     Spacer()
                     
-                    // Logo
                     Image("logo")
                         .resizable()
                         .scaledToFit()
@@ -61,7 +59,6 @@ struct SignInEmailView: View {
                             .padding()
                     }
                     
-                    // Devam butonu
                     Button(action: {
                         Task {
                             do {

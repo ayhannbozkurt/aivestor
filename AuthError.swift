@@ -21,7 +21,6 @@ struct AuthError: Error {
     let type: ErrorType
     let description: String?
 
-    // Eklenen init fonksiyonu ile description varsayılan olarak nil yapılabilir.
     init(type: ErrorType, description: String? = nil) {
         self.type = type
         self.description = description

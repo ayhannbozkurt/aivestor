@@ -10,25 +10,35 @@ import Firebase
 //import GoogleSignIn
 
 @main
-struct VakifBankApp: App {
-    @State private var showChatbot = true
-//    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-
-    init() {
-        FirebaseApp.configure()
-    }
+struct AiVestorApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    @StateObject private var signInVM = SignInViewModel()
 
     var body: some Scene {
         WindowGroup {
-//            SignInEmailView(
-//                         viewModel: SignInEmailViewModel(),
-//                         signInVM: SignInViewModel(),
-//                         isUserLoggedIn: .constant(false)
-//                     )
-            ChatbotView()
-                   }
-               }
+            if let _ = signInVM.user {
+                ContentView()
+                    .environmentObject(signInVM)
+            } else {
+                SignInView(signInVM: signInVM)
+            }
         }
+    }
+}
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
+    ) -> Bool {
+        if FirebaseApp.app() == nil {
+            FirebaseApp.configure()
+        }
+        return true
+    }
+}
+
+
 
 //class AppDelegate: NSObject, UIApplicationDelegate {
 //    func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {

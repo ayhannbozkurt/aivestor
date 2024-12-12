@@ -22,13 +22,13 @@ struct ChatbotView: View {
                 Spacer()
 
                 ZStack {
-                    Image("logo") // Örnek ikon
+                    Image("logo")
                         .resizable()
                         .foregroundColor(.purple)
                         .frame(width: 80, height: 80)
                 }
 
-                // Metinler
+             
                 VStack(spacing: 8) {
                     Text("Welcome to ..")
                         .font(.title)
