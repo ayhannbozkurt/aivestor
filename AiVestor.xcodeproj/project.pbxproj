@@ -17,6 +17,7 @@
 		FE50B8E02D08CEF10048BE67 /* AuthError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50B8DF2D08CEF10048BE67 /* AuthError.swift */; };
 		FE50B8E32D08CF9E0048BE67 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FE50B8E22D08CF9E0048BE67 /* FirebaseAuth */; };
 		FE50B8E52D08CF9E0048BE67 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = FE50B8E42D08CF9E0048BE67 /* FirebaseCore */; };
+		FE914F432D0E0D0900C93977 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FE914F422D0E0D0900C93977 /* ConfettiSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE914F432D0E0D0900C93977 /* ConfettiSwiftUI in Frameworks */,
 				FE50B8E52D08CF9E0048BE67 /* FirebaseCore in Frameworks */,
 				FE50B8E32D08CF9E0048BE67 /* FirebaseAuth in Frameworks */,
 			);
@@ -118,12 +120,12 @@
 		FE50B88B2D08CD8C0048BE67 = {
 			isa = PBXGroup;
 			children = (
-				FE2947622D0AF66500CD266F /* StockMockData.swift */,
 				FE29475D2D0AF5C500CD266F /* Helpers */,
 				FE29475A2D0AF50600CD266F /* Requests */,
 				FE2947552D0AF4A400CD266F /* ViewModels */,
 				FE29473A2D0AF01000CD266F /* Views */,
 				FE50B8DF2D08CEF10048BE67 /* AuthError.swift */,
+				FE2947622D0AF66500CD266F /* StockMockData.swift */,
 				FE50B8DD2D08CED90048BE67 /* ValidationUtils.swift */,
 				FE50B8DB2D08CEC40048BE67 /* CustomButton.swift */,
 				FE50B8D92D08CEAC0048BE67 /* AuthManager.swift */,
@@ -181,6 +183,7 @@
 			packageProductDependencies = (
 				FE50B8E22D08CF9E0048BE67 /* FirebaseAuth */,
 				FE50B8E42D08CF9E0048BE67 /* FirebaseCore */,
+				FE914F422D0E0D0900C93977 /* ConfettiSwiftUI */,
 			);
 			productName = AiVestor;
 			productReference = FE50B8942D08CD8C0048BE67 /* AiVestor.app */;
@@ -266,6 +269,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				FE50B8E12D08CF9E0048BE67 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				FE914F412D0E0D0900C93977 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FE50B8952D08CD8C0048BE67 /* Products */;
@@ -642,6 +646,14 @@
 				minimumVersion = 11.6.0;
 			};
 		};
+		FE914F412D0E0D0900C93977 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -654,6 +666,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FE50B8E12D08CF9E0048BE67 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseCore;
+		};
+		FE914F422D0E0D0900C93977 /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE914F412D0E0D0900C93977 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
